@@ -1,1 +1,122 @@
-index.css
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.header{
+	font-family: "Merriweather", sans-serif;
+	font-size: 100px;
+	color: goldenrod;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+}
+
+#name{ 
+	color: black;
+	background-color: goldenrod;
+	padding: 7px;
+	font-size: 16px;
+	margin-top: 10px;
+
+}
+
+#submit{
+	color: darkred;
+	background-color: goldenrod;
+	padding: 7px;
+	font-size: 16px;
+	margin-top: 10px;
+	font-family: "Work Sans", serif;
+}
+
+
+h1{
+	font-family: "Merriweather", sans-serif;
+	font-size: 30px;
+	color: goldenrod;
+}
+
+h2{ 
+	font-family: "Work Sans", serif;
+ }
+
+#platform{
+	padding-bottom: 20px;
+	font-size: 50px;
+}
+
+h3{
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+nav{
+	padding: 10px;
+	background-color: darkred;
+	text-align: center;
+	color: whitesmoke;
+	font-family: "Merriweather", sans-serif;
+	font-size: 14px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: goldenrod;
+	font-size: 15px;
+}
+
+
+
+#landing{
+	padding: 50px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	background-color: darkred;
+	padding-bottom: 100px;
+}
+
+#card{
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+.card-img{
+	height: 300px;
+	width: 300px;
+	border-radius: 5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#movies{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+footer{
+	background-color: goldenrod ;
+	text-align: center;
+	padding: 8px;
+	font-family: "Merriweather", sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
